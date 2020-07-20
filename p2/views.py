@@ -10,3 +10,6 @@ def home(request):
 
 def html_demo2(request):
     return render(request,"sample05.html")
+
+def home1(request):
+    return render(request,"directory/sample04.html")
