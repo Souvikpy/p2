@@ -20,8 +20,11 @@ from p2 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
-    path('home',views.home,name='home'),
-    path('html_demo2',views.html_demo2,name='html_demo2'),
-    path('home1',views.home1,name='home1'),
+    path('home/',views.home,name='home'),
+    path('html_demo2/',views.html_demo2,name='html_demo2'),
+    path('sample1/',views.sample1,name='sample1'),
+    path('sample2/',views.sample2,name='sample2'),
+    path('sample3/',views.sample3,name='sample3'),
+    path('sample4/',views.sample4,name='sample4'),
 
 ]
